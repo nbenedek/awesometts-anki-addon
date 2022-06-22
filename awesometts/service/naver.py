@@ -34,7 +34,7 @@ import datetime
 __all__ = ['Naver']
 
 
-TRANSLATE_ENDPOINT = 'https://papago.naver.com/apis/tts/'
+TRANSLATE_ENDPOINT = 'http://papago.naver.com/apis/tts/'
 TRANSLATE_MKID = TRANSLATE_ENDPOINT + 'makeID'
 
 VOICE_CODES = [
